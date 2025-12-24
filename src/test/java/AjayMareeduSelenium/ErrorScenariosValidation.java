@@ -17,7 +17,7 @@ public class ErrorScenariosValidation extends BaseTest {
 				"Ajay@123");
 		String errMsg = LandingPageComponents.VerifyLoginError();
 		System.out.println(errMsg);
-		Assert.assertTrue(errMsg.equalsIgnoreCase("Incorrect email  password."));;
+		Assert.assertTrue(errMsg.equalsIgnoreCase("Incorrect email and password."));;
 		
   
 
